@@ -686,50 +686,72 @@ em     { font-style: italic; }
 }
 
 /* ============================================================
-   TAG CON BARRA DI VALUTAZIONE
+   TAG CON STELLE DI VALUTAZIONE
    ============================================================ */
 .storia-tag {
   display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem 1.2rem;
-  margin-bottom: 0.8rem;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-bottom: 0.9rem;
 }
 
-.tag-item {
+.tag-riga {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
+  gap: 0.6rem;
 }
 
 .tag-nome {
   font-family: var(--font-display);
   font-style: italic;
-  font-size: 0.74rem;
+  font-size: 0.76rem;
   color: var(--text-muted);
-  min-width: 3.2rem;
+  min-width: 4.5rem;
   text-align: right;
-}
-
-.tag-barra-sfondo {
-  width: 72px;
-  height: 3px;
-  background: var(--border);
-  border-radius: 3px;
-  overflow: hidden;
   flex-shrink: 0;
 }
 
-.tag-barra-riempimento {
-  height: 100%;
-  border-radius: 3px;
-  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+.tag-stelle {
+  display: inline-flex;
+  gap: 0.08rem;
+  line-height: 1;
 }
+
+/* Ogni posizione stella */
+.stella-pos {
+  position: relative;
+  display: inline-block;
+  font-size: 13px;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+}
+
+/* Stella di sfondo — sempre visibile, rappresenta il massimo */
+.stella-fondo {
+  color: var(--border);
+  display: block;
+}
+
+/* Stella colorata sovrapposta — clippata per full/half/empty */
+.stella-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  transition: width 0.35s ease;
+}
+.stella-fill.piena { width: 100%; }
+.stella-fill.meta  { width: 52%; } /* 52% invece di 50% per ottica */
+.stella-fill.vuota { width: 0%;   }
 
 .tag-valore {
   font-family: var(--font-display);
   font-size: 0.7rem;
   color: var(--text-muted);
-  min-width: 1.1rem;
+  opacity: 0.65;
   font-style: normal;
-  opacity: 0.7;
+  min-width: 1.6rem;
 }
