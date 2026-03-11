@@ -59,6 +59,10 @@
   }
 
   function segnaComeLetta(id) {
+    // GA4: traccia lettura completata
+    if (typeof gtag === 'function') {
+      gtag('event', 'lettura_completata', { storia_id: id });
+    }
     let lette = [];
     try {
       const v = getCookie(COOKIE_LETTE);
@@ -260,6 +264,13 @@
 
       // Titolo della scheda del browser
       document.title = `${storia.titolo} — Cose scritte`;
+      // GA4: traccia apertura storia
+      if (typeof gtag === 'function') {
+        gtag('event', 'storia_aperta', {
+          storia_id:    storyId,
+          storia_titolo: storia.titolo
+        });
+      }
 
       // Intestazione
       document.getElementById('storia-titolo').textContent = storia.titolo;
