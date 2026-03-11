@@ -16,6 +16,23 @@
           "colore": "#5A7A8A"
         }
       ]
+    },
+    {
+      "id": "il-cielo",
+      "titolo": "Il cielo",
+      "data": "2026-01-03",
+      "estratto": "Storia triste con finale positivo (credo) di un ragazzo che finisce all'inferno. Il titolo di ciascun capitolo è preso dai titoli delle canzoni di un videogioco che parla di un cyborg samurai che combatte il capitalismo.",
+      "tag": [
+        {
+          "nome": "Indice di tristezza",
+          "valore": 8
+        },
+        {
+          "nome": "Ma finisce bene",
+          "valore": 7,
+          "colore": "#5A7A8A"
+        }
+      ]
     }
   ]
 }
