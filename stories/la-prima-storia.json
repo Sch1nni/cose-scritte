@@ -1,18 +1,10 @@
 {
-  "id": "la-prima-storia",
-  "titolo": "La prima storia",
-  "data": "2024-03-15",
-  "estratto": "Un racconto di esempio per mostrare il funzionamento del sito.",
+  "id": "test",
+  "titolo": "non è un lorem ipsum :)",
+  "data": "2026-03-11",
+  "estratto": "Se pareba boves alba pratalia araba et albo versorio teneba et negro semen semenaba",
   "tempo_lettura": 4,
   "contenuto": [
-    "Questa è la prima storia pubblicata su <em>Cose scritte</em>. Puoi sostituire questo testo con il contenuto reale della tua storia — basta modificare questo file JSON nella cartella <code>stories/</code>.",
-    "Ogni elemento dell'array <strong>contenuto</strong> diventa un paragrafo separato. Puoi usare semplici tag HTML come <em>corsivo</em>, <strong>grassetto</strong> o <br> per andare a capo all'interno di un paragrafo.",
-    "Il carattere del corpo è <em>Lora</em>, un serif disegnato appositamente per la lettura su schermo: proporzionato, leggibile, caldo. I titoli usano <em>Playfair Display</em>, più teatrale e letterario.",
-    "Hai già notato il capolettera? È una tradizione tipografica antica, tipica dei romanzi e delle riviste letterarie. Qui compare automaticamente sulla prima lettera di ogni storia.",
-    "Puoi leggere questo testo in modalità <em>Scorri</em> — la predefinita, una lunga pagina verticale — oppure in modalità <em>Libro</em>, che divide il racconto in pagine navigabili con i tasti freccia, i pulsanti in fondo allo schermo, o uno swipe laterale sul telefono.",
-    "In alto a destra trovi il pulsante <strong>Aa</strong>: aprilo per cambiare il tema di lettura. Chiaro per la luce del giorno, Scuro per la sera, Grigio per un tono neutro e riposante. Puoi anche regolare la dimensione del testo.",
-    "La sottile barra colorata in cima alla pagina segna il tuo avanzamento nella lettura. Se preferisci tenerla nascosta, puoi disattivarla dal pannello impostazioni.",
-    "Il sito ricorda dove ti sei fermato: se chiudi la finestra a metà racconto e torni più tardi alla lista, troverai un piccolo pulsante <em>Riprendi</em> accanto al titolo. Quando arrivi all'ultima riga, la storia viene segnata come letta.",
-    "Per aggiungere una nuova storia al sito, crea un nuovo file nella cartella <code>stories/</code> — per esempio <code>stories/il-mio-nuovo-racconto.json</code> — e aggiungi un riferimento in <code>stories/index.json</code>. Nient'altro."
+    "Niente di serio, per ora"
   ]
 }
