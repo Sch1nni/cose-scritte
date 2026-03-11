@@ -53,6 +53,22 @@
           "valore": 0
         }
       ]
+    },
+    {
+      "id": "l-uomo-strada",
+      "titolo": "L'uomo strada",
+      "data": "2025-02-12",
+      "estratto": "Un essere vive pacificamente sotto un'autostrada, riflettendo sulle vite delle persone che passano sopra. E' difficile descrivere questa storia, ok?",
+      "tag": [
+        {
+          "nome": "???",
+          "valore": 7
+        },
+        {
+          "nome": "Strade",
+          "valore": 8
+        }
+      ]
     }
   ]
 }
