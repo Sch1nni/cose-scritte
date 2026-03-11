@@ -1,7 +1,6 @@
 # Cose scritte — Documentazione tecnica
 
-Sito letterario personale per la pubblicazione di racconti e prose.
-Interamente in italiano. Progettato per essere semplice da mantenere e deployare.
+La documentazione (e anche tutta la stack, in realtà) è stata scritta da un LLM; pur non essendo il sito il focus di questo progetto privato, ci tengo a recuperare un po' di dignità sostituendo l'introduzione senz'anima con questo bel commentario. Nessuna delle storie che ho pubblicato o pubblicherò toccheranno mai un LLM, neanche con un bastone lungo un metro. Per tale ragione, apprezzate ogni singolo errore di battitura e similari.
 
 ---
 
