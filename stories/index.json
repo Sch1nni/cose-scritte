@@ -37,6 +37,22 @@
           "colore": "#3A6080"
         }
       ]
+    },
+    {
+      "id": "il-mostro-mangiafacce",
+      "titolo": "Il mostro mangiafacce",
+      "data": "2025-06-11",
+      "estratto": "Una succinta avventura del mostro mangiafacce che, come suggerisce il suo nome, si ciba delle facce altrui. Basato su \"The Nameless Monster\" di Monster.",
+      "tag": [
+        {
+          "nome": "???",
+          "valore": 10
+        },
+        {
+          "nome": "Facce",
+          "valore": 0
+        }
+      ]
     }
   ]
 }
