@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cose scritte</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Barra di avanzamento lettura -->
+  <div class="barra-progresso-contenitore" id="barraProgresso">
+    <div class="barra-progresso" id="barraProgressoInner"></div>
+  </div>
+
+  <!-- Pulsante: torna alla lista -->
+  <a href="index.html" class="btn-indietro">← Storie</a>
+
+  <!-- Pulsante: apri impostazioni -->
+  <button class="btn-impostazioni" id="btnImpostazioni" aria-label="Impostazioni di lettura">Aa</button>
+
+  <!-- Overlay semi-trasparente per chiudere il pannello -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Pannello impostazioni -->
+  <aside class="pannello-impostazioni" id="pannelloImpostazioni" aria-label="Impostazioni di lettura">
+    <div class="pannello-titolo">
+      <span>Impostazioni lettura</span>
+      <button class="chiudi-pannello" id="chiudiPannello" aria-label="Chiudi">✕</button>
+    </div>
+
+    <!-- Tema -->
+    <div class="impostazione-gruppo">
+      <p class="impostazione-etichetta">Tema</p>
+      <div class="opzioni-tema" role="group" aria-label="Scegli tema">
+        <button class="btn-tema attivo" data-tema="chiaro">Chiaro</button>
+        <button class="btn-tema" data-tema="scuro">Scuro</button>
+        <button class="btn-tema" data-tema="grigio">Grigio</button>
+      </div>
+    </div>
+
+    <!-- Dimensione testo -->
+    <div class="impostazione-gruppo">
+      <p class="impostazione-etichetta">Dimensione testo</p>
+      <div class="controllo-dimensione">
+        <button class="btn-dimensione" id="diminuisci" aria-label="Riduci testo">A−</button>
+        <span class="dimensione-corrente" id="dimensioneCorrente">Medio</span>
+        <button class="btn-dimensione" id="aumenta" aria-label="Aumenta testo">A+</button>
+      </div>
+    </div>
+
+    <!-- Modalità di lettura -->
+    <div class="impostazione-gruppo">
+      <p class="impostazione-etichetta">Modalità di lettura</p>
+      <div class="opzioni-modalita" role="group" aria-label="Scegli modalità">
+        <button class="btn-modalita attivo" data-modalita="scorri">📜 Scorri</button>
+        <button class="btn-modalita" data-modalita="libro">📖 Libro</button>
+      </div>
+    </div>
+
+    <!-- Toggle barra avanzamento -->
+    <div class="impostazione-gruppo">
+      <div class="toggle-riga">
+        <p class="impostazione-etichetta">Barra avanzamento</p>
+        <label class="toggle" aria-label="Mostra barra avanzamento">
+          <input type="checkbox" id="toggleProgresso" checked>
+          <span class="toggle-cursore"></span>
+        </label>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Contenuto della storia -->
+  <article id="contenuto-storia">
+    <header class="intestazione-storia">
+      <div class="storia-meta" id="storia-meta"></div>
+      <h1 id="storia-titolo">Caricamento…</h1>
+    </header>
+    <div class="testo-storia" id="testo-storia"></div>
+  </article>
+
+  <!-- Navigazione modalità libro (nascosta di default) -->
+  <nav class="navigazione-ebook nascosta" id="navigazioneEbook" aria-label="Navigazione pagine">
+    <button class="nav-ebook-btn" id="paginaPrecedente" aria-label="Pagina precedente">← Precedente</button>
+    <span class="nav-ebook-info" id="infoPagina" aria-live="polite">Pagina 1 di 1</span>
+    <button class="nav-ebook-btn" id="paginaSuccessiva" aria-label="Pagina successiva">Successiva →</button>
+  </nav>
+
+  <script src="js/reader.js"></script>
+</body>
+</html>
