@@ -69,6 +69,22 @@
           "valore": 8
         }
       ]
+    },
+    {
+      "id": "tac",
+      "titolo": "Tac",
+      "data": "2024-10-28",
+      "estratto": "Parla di un uomo che deve tenere d'occhio un orologio, il quale ovviamente smette subito di funzionare. E quell'orologio era una delle cose più importanti al mondo.",
+      "tag": [
+        {
+          "nome": "Triste",
+          "valore": 7
+        },
+        {
+          "nome": "Hai a presente 1984?",
+          "valore": 9
+        }
+      ]
     }
   ]
 }
