@@ -268,10 +268,12 @@
       const dataFormattata = d.toLocaleDateString('it-IT', {
         day: 'numeric', month: 'long', year: 'numeric'
       });
+      const _parole = storia.contenuto.join(' ').trim().split(/\s+/).length;
+      const _minuti = Math.max(1, Math.round(_parole / 200));
       document.getElementById('storia-meta').innerHTML = `
         <span>${dataFormattata}</span>
         <span aria-hidden="true">·</span>
-        <span>${storia.tempo_lettura}&nbsp;min di lettura</span>
+        <span>${_minuti}&nbsp;min di lettura</span>
       `;
 
       // Testo: ogni elemento dell'array diventa un <p>
