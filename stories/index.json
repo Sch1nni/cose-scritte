@@ -85,6 +85,22 @@
           "valore": 9
         }
       ]
+    },
+    {
+      "id": "una-citta-chiamata-onesta",
+      "titolo": "Una città chiamata Onestà",
+      "data": "2024-06-20",
+      "estratto": "Storia di un bieco paese di assicuratori chiamato \"Onestà\". L'ho scritta dopo averla concepita in un audio mentre aspettavo gente in ritardo.",
+      "tag": [
+        {
+          "nome": "Onestà",
+          "valore": 0
+        },
+        {
+          "nome": "Drago",
+          "valore": 10
+        }
+      ]
     }
   ]
 }
