@@ -4,7 +4,18 @@
       "id": "blio",
       "titolo": "Blio",
       "data": "2026-01-20",
-      "estratto": "Francamente, non ricordo."
+      "estratto": "Francamente, non ricordo.",
+      "tag": [
+        {
+          "nome": "Indice di tristezza",
+          "valore": 3
+        },
+        {
+          "nome": "'Cos'ho appena letto?'",
+          "valore": 6,
+          "colore": "#5A7A8A"
+        }
+      ]
     }
   ]
 }
