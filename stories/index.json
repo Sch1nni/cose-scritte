@@ -101,6 +101,18 @@
           "valore": 10
         }
       ]
+    },
+    {
+      "id": "il-piccolo-tulipano-curioso",
+      "titolo": "Il piccolo tulipano curioso",
+      "data": "2023-07-19",
+      "estratto": "Sarò onesto, questa non l'ho nemmeno riletta. Ma mi pare fosse bella.",
+      "tag": [
+        {
+          "nome": "Tulipani",
+          "valore": 8
+        }
+      ]
     }
   ]
 }
