@@ -1,6 +1,22 @@
 {
   "storie": [
     {
+      "id": "un-altra-metamorfosi",
+      "titolo": "Un'altra metamorfosi",
+      "data": "2026-03-29",
+      "estratto": "Umberto Eco mi ha obbligato in sogno a scrivere un finale alternativo per la Metamorfosi di Kafka. Che devo ancora finire di leggere.",
+      "tag": [
+        {
+          "nome": "???",
+          "valore": 8
+        },
+        {
+          "nome": "Gregor",
+          "valore": 10
+        }
+      ]
+    },
+    {
       "id": "blio",
       "titolo": "Blio",
       "data": "2026-01-20",
